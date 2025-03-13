@@ -53,3 +53,10 @@ let empty = null;
 // 5. Undefined Type
 let none;
 console.log(none);
+
+// Null 과 Undefined 와 같지 않나?
+// 의미는 같다.
+// 하지만 undefined 는 값을 선언하고 어떠한 값도 넣지 않았을떄 undefined가 나온다.
+// 즉 선언 시 자동으로 들어가는 값이다.
+// Null은 명시적으로 할당해야 들어가는 값이다. 즉
+// 우리들이 어떠한 값도 없다 라고 할떄 Null을 명시해야된다.
