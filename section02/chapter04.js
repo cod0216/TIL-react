@@ -42,6 +42,7 @@ funcA(...arr1); // 이렇게 뿌릴수도 있다!!
 // -> Rest는 나머지, 나머지 매개변수
 
 function funcB(one, two, ...rest) {
+  // rest 매개변수 뒤에 추가적인 매개변수는 넣을 수 없다!
   //...은 매개변수를 정의하는 소괄호 안에 사용되었기 때문에 spread랑은 다르다!!
   console.log(rest);
 }
