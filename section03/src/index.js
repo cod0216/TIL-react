@@ -21,7 +21,7 @@ console.log(add(1, 2));
 console.log(sub(1, 2));
 console.log(mul(1, 2));
 
-// node 파일경로.js --> 실행행
+// node 파일경로.js --> 실행
 
 // 이 방식이 CJS 방식이다.
 /*
